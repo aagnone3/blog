@@ -1,5 +1,5 @@
 digraph G {
-	"raw image" -> "culled images"
+	"raw images" -> "culled images"
 	"culled images" -> "image vectors"
 	"raw audio" -> "preprocessed audio"
 	"preprocessed audio" -> "audio vectors"

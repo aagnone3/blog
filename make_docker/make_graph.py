@@ -18,7 +18,7 @@ g = Digraph('G', filename='cluster.gv')
 #     c.attr(label='process #2')
 #     c.attr(color='blue')
 
-g.edge('raw image', 'culled images')
+g.edge('raw images', 'culled images')
 g.edge('culled images', 'image vectors')
 
 g.edge('raw audio', 'preprocessed audio')
