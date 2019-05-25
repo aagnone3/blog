@@ -1,0 +1,10 @@
+digraph G {
+	"raw image" -> "culled images"
+	"culled images" -> "image vectors"
+	"raw audio" -> "preprocessed audio"
+	"preprocessed audio" -> "audio vectors"
+	"image vectors" -> "data samples"
+	"audio vectors" -> "data samples"
+	"trained model" -> predictions
+	"data samples" -> predictions
+}
